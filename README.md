@@ -7,8 +7,7 @@ Each problem set challenges students with practical programming tasks that reinf
 
 ---
 
-### Week 1 – C  
-
+### 1) Basics of the language C
 - **Hello** – Famous Basic C program that prints "hello, world."
 
 ![](~Images/hello_world.png)
@@ -19,42 +18,41 @@ Each problem set challenges students with practical programming tasks that reinf
 - **Mario (More)** – Ask height and prints a pyramid of blocks inspired by Super Mario.
 
 ![](~Images/mario-more.png)
+  
+- **Credit** – A program that verifies credit card numbers using Luhn’s Algorithm and identifies the card network.
+ 
+![](~Images/credit.png)
 
-- **Cash** – A greedy algorithm to determine the minimum number of coins for change.  
-- **Credit** – A program that validates credit card numbers using Luhn’s Algorithm.  
-
-### Week 2 – Arrays  
+### 2) Arrays  
+- **Scrabble** - Simple scrabble-like program that give points depending on letters for a given word.
+  
 - **Readability** – Determines the reading level of a given text using the Coleman-Liau index.  
-- **Caesar** – Implements a simple Caesar cipher for text encryption.  
 - **Substitution** – Implements a more flexible substitution cipher.  
 
-### Week 3 – Algorithms  
+### 3) Algorithms  
 - **Plurality** – Implements a simple plurality voting system.  
 - **Runoff** – Simulates a runoff election using an elimination system.  
 - **Tideman** – Implements a ranked-choice voting system using graph theory.  
 
-### Week 4 – Memory  
+### 4) Memory/pointer
 - **Filter** – Applies image filters like grayscale and blur using image processing techniques.  
 - **Recover** – Recovers deleted JPEG files from a raw memory file.  
 
-### Week 5 – Data Structures  
-- **Speller** – Implements a spell checker using a hash table.  
+### 5) Data Structures  
+- **Speller** – Implements a spell checker using a hash table.   
 
-### Week 6 – Python  
+### 6) Python  
 - **Hello** – Basic Python program that prints "hello, world."  
 - **Mario (Less & More)** – Re-implementation of the Mario pyramid in Python.  
 - **Cash** – Change-making problem solved in Python.  
 - **Credit** – Credit card validation using Python.  
 
-### Week 7 – SQL  
+### 7) SQL  
 - **Movies** – Queries a database of movies to find specific information.  
 
-### Week 8 – Web Programming  
+### 8) Web Programming  
 - **Homepage** – A simple personal website using HTML, CSS, and JavaScript.  
 
 ---
-
-## 📸 Screenshots  
-*(Add your screenshots here to illustrate your solutions.)*  
 
 Feel free to explore each problem set folder for the source code and explanations of my solutions! 🚀  
