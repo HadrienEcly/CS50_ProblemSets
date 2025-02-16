@@ -7,27 +7,43 @@ Each problem set challenges students with practical programming tasks that reinf
 
 ---
 
-### 1) Basics of the language C
+### 01 - Basics of the language C 
+<details>
+<summary>Hello, Hello Name, Mario, Credit</summary>
+
 - **Hello** – Famous Basic C program that prints "hello, world."
 
-![](~Images/hello_world.png)
+![](Images/hello_world.png)
 - **Hello Name** – Little twist of the "hello, world" where user need to input a name and prints "hello, name"
 
-![](~Images/hello_me.png)
+![](Images/hello_me.png)
 
 - **Mario (More)** – Ask height and prints a pyramid of blocks inspired by Super Mario.
 
-![](~Images/mario-more.png)
+![](Images/mario-more.png)
   
 - **Credit** – A program that verifies credit card numbers using Luhn’s Algorithm and identifies the card network.
  
-![](~Images/credit.png)
+![](Images/credit.png)
+</details>
 
-### 2) Arrays  
+### 02 - Arrays  
+
+<details>
+<summary>Scrabble, Readability, Substitution</summary>
+
 - **Scrabble** - Simple scrabble-like program that give points depending on letters for a given word.
-  
-- **Readability** – Determines the reading level of a given text using the Coleman-Liau index.  
-- **Substitution** – Implements a more flexible substitution cipher.  
+
+![](Images/scrabble.png)
+
+- **Readability** – Determines the reading level of a given text using the Coleman-Liau index.
+
+![](Images/readability.png)
+
+- **Substitution** – Implements a more flexible substitution cipher.
+
+![](Images/substitution.png)
+</details>
 
 ### 3) Algorithms  
 - **Plurality** – Implements a simple plurality voting system.  
