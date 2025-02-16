@@ -46,9 +46,20 @@ Each problem set challenges students with practical programming tasks that reinf
 </details>
 
 ### 3) Algorithms  
-- **Plurality** – Implements a simple plurality voting system.  
-- **Runoff** – Simulates a runoff election using an elimination system.  
-- **Tideman** – Implements a ranked-choice voting system using graph theory.  
+<details>
+<summary>Plurality, Tideman</summary>
+  
+- **Plurality** – Implements a simple plurality voting system.
+
+![](Images/plurality.png)
+
+
+- **Tideman** – Implements a ranked-choice voting system using graph theory.
+
+![](Images/tideman.png)
+
+
+</details>
 
 ### 4) Memory/pointer
 - **Filter** – Applies image filters like grayscale and blur using image processing techniques.  
