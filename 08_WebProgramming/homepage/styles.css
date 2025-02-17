@@ -1,0 +1,45 @@
+
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+
+}
+
+#mainImage {
+    width: 800px;
+    height: auto;
+}
+
+#thumbnails {
+    text-align: center;
+    align-items: center;
+    display: flex
+    justify-content: center;
+    gap: 8px;
+}
+
+.thumb{
+    width: 100px;
+    height: auto
+}
+
+.thumb:hover {
+    transform: scale(1.05);
+}

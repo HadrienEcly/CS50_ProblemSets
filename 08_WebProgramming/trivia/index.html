@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            //Execute script when everything is loaded
+            document.addEventListener('DOMContentLoaded',function(){
+
+                //When correct button clicked change button green and answer text
+                let correct = document.querySelector('.true');
+                correct.addEventListener('click', function(){
+                    correct.style.backgroundColor = "green";
+                    document.querySelector('#answer1').innerHTML = 'Correct';
+                });
+                //When incorrect button clicked change button to red and answer text
+                let incorrects = document.querySelectorAll('.false');
+                for (let i = 0; i<incorrects.length; i++){
+                    incorrects[i].addEventListener('click', function(){
+                        incorrects[i].style.backgroundColor = "red";
+                        document.querySelector('#answer1').innerHTML = 'Incorrect';
+                })};
+                //When check answer clicked, check if its true and show corresponding text
+                document.querySelector('#check').addEventListener('click',function(){
+                    let answer = document.querySelector('input');
+                    if (answer.value == "Thestral" || answer.value == "thestral"){
+                        answer.style.backgroundColor = "green";
+                        document.querySelector('#answer2').innerHTML = 'Correct';
+                    }
+                    else {
+                        answer.style.backgroundColor = "red";
+                        document.querySelector('#answer2').innerHTML = 'Incorrect';
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What is the name of the magical map that shows the entire layout of Hogwarts?</h3>
+                <button class = "true"> Marauder's map</button>
+                <button class = "false"> Quoicoubeh's map</button>
+                <button class = "false"> Hogwarts's map</button>
+
+
+                <p id="answer1"></p> <!--- Place to show is the answer is true or false-->
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What is the name of the magical creature that can only be seen by those who have witnessed death?</h3>
+                <input type="text"></input>
+                <button id="check"> Check Answer </button>
+                <!-- TODO: Add free response question here -->
+                <p id="answer2"></p> <!--- Place to show is the answer is true or false-->
+            </div>
+        </div>
+    </body>
+</html>

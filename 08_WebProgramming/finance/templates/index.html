@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Stock</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price of each</th>
+                <th scope="col">Total of holding</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for stock in stock_data %}
+            <tr>
+                <td >{{ stock['name'] }} </td>
+                <td >{{ stock['amount'] }}</td>
+                <td >{{ stock['usdprice'] }}</td>
+                <td >{{ stock['usdtotal'] }}</td>
+            </tr>
+    {% endfor %}
+    </tbody>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User's current cash</th>
+                <th scope="col">Grand Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >{{ user_cash }} </td>
+                <td >{{ total_cash }}</td>
+
+            </tr>
+    </tbody>
+{% endblock %}

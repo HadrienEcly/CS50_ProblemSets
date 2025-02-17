@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Transaction</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Total Price</th>
+                <th scope="col">Time</th>
+            </tr>
+        </thead>
+        <tbody>
+    {% for tr in transactions %}
+        {% if tr['type'] == 'buy' %}
+            <tr class="table-warning">
+                <td >Purchase </td>
+        {% endif %}
+
+        {% if tr['type'] == 'sell' %}
+            <tr class="table-success">
+                <td >Sale </td>
+        {% endif %}
+
+                <td >{{ tr['what'] }} </td>
+                <td >{{ tr['amount'] }}</td>
+                <td >{{ tr['price'] }}</td>
+                <td >{{ tr['day'] }}/{{ tr['month'] }}/{{ tr['month'] }} at {{ tr['hour'] }}h{{ tr['minutes'] }}</td>
+            </tr>
+    {% endfor %}
+{% endblock %}

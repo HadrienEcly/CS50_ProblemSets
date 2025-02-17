@@ -1,0 +1,4 @@
+10 HTML TAGS: <nav><p>x3<br>x3<div>x3<img><h1><h2>
+5 CSS properties : font-family,font-size,text-align,width,height
+JavaScript: Creation of an interactive gallery where you click on thumbnails to have each picture in fullscreen
+Bootstrap : Use of the "navbar" to create a contextual menu to navigate on the site

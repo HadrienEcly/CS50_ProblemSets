@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="input-group">
+            <select class="form-select" id="inputGroupSell" name= "symbol">
+                <option selected disabled >Choose a stock to sell...</option>
+                {% for stock in user_actual_stocks%}
+                <option value="{{ stock['what'] }}">{{ stock['what'] }} ( {{ stock['amount']}})</option>
+                {% endfor %}
+            </select>
+            <input type="text" class="form-control" name = "shares" placeholder = "Number of shares" type="number" min=1 value=1>
+            <button class="btn btn-outline-secondary" type="submit">Sell</button>
+          </div>
+    </form>
+
+{% endblock %}
