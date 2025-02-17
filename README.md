@@ -171,10 +171,15 @@ Each problem set challenges students with practical programming tasks that reinf
 
 ---
 
-### 7) SQL  
-- **Movies** – Queries a database of movies to find specific information.  
+## 07 - SQL  
 
-### 8) Web Programming  
+- **Songs** – Queries a database of songs to find specific information.
+- **Movies** – Queries a database of movies to find specific more complexe information. 
+- **Fiftyville** – A log of queries from the database of a town with multiple clues to identify a thief, their destination, and accomplices.
+  
+## 08 - Web Programming 
+- **Trivia** – A simple website using HTML, CSS, and JavaScript in form of a trivia.
+ 
 - **Homepage** – A simple personal website using HTML, CSS, and JavaScript.  
 
 ---
