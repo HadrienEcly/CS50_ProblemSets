@@ -173,15 +173,38 @@ Each problem set challenges students with practical programming tasks that reinf
 
 ## 07 - SQL  
 
+<details>
+<summary>Songs, Movies, Fiftyville</summary>
+  
 - **Songs** – Queries a database of songs to find specific information.
 - **Movies** – Queries a database of movies to find specific more complexe information. 
 - **Fiftyville** – A log of queries from the database of a town with multiple clues to identify a thief, their destination, and accomplices.
-  
-## 08 - Web Programming 
-- **Trivia** – A simple website using HTML, CSS, and JavaScript in form of a trivia.
- 
-- **Homepage** – A simple personal website using HTML, CSS, and JavaScript.  
+
+</details>
 
 ---
 
-Feel free to explore each problem set folder for the source code and explanations of my solutions! 🚀  
+## 08 - Web Programming 
+
+<details>
+<summary>Trivia, Homepage, Birthdays, Finance</summary>
+
+- **Trivia** – A simple website using HTML, CSS, and JavaScript in form of a trivia.
+  
+![](Misc/trivia.png)
+
+- **Homepage** – A simple personal website using HTML, CSS, and JavaScript, with an interactive gallery.
+
+![](Misc/homepage_1.png) ![](Misc/homepage_2.png)
+
+- **Birthdays** – Flask web app using SQLite to view and add friends' birthdays.
+
+![](Misc/birthdays.png)
+
+- **Finance** – Web app where users can manage their portfolios by "buying" and "selling" stocks, viewing their stock holdings and transactions, and checking real-time stock prices through an integrated API.
+
+https://github.com/user-attachments/assets/87e3298c-1bf4-4b3a-bd0c-514790665e3d
+
+</details>
+
+---
