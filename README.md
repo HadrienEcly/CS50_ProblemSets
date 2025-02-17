@@ -45,7 +45,7 @@ Each problem set challenges students with practical programming tasks that reinf
 ![](Images/substitution.png)
 </details>
 
-### 3) Algorithms  
+### 03 - Algorithms  
 <details>
 <summary>Plurality, Tideman</summary>
   
@@ -61,9 +61,21 @@ Each problem set challenges students with practical programming tasks that reinf
 
 </details>
 
-### 4) Memory/pointer
-- **Filter** – Applies image filters like grayscale and blur using image processing techniques.  
-- **Recover** – Recovers deleted JPEG files from a raw memory file.  
+### 03 - Memory
+
+<details>
+<summary>Volume, Filter-more, Recover</summary>
+
+- **Volume** – Modify an input’s volume by adjusting its memory allocation.
+
+<audio controls>
+  <source src="[https://raw.githubusercontent.com//HadrienEcly/CS50_ProblemSets/main/04_Memory/volume/input.wav](https://raw.githubusercontent.com/HadrienEcly/CS50_ProblemSets/main/04_Memory/volume/input.wav")" type="audio/wav">
+</audio>
+
+- **Filter-more** – Applies image filters like grayscale, blur, reversed and edge detection using image processing techniques.  
+- **Recover** – Recovers deleted JPEG files from a raw memory file.
+  
+</details>
 
 ### 5) Data Structures  
 - **Speller** – Implements a spell checker using a hash table.   
