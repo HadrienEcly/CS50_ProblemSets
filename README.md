@@ -1,4 +1,6 @@
-# Problem sets collection
+<img src="https://github.com/user-attachments/assets/cdf8ea53-ac84-4362-a7ac-0854eecf903b" width="500"/>
+
+#      CS50 Problem sets collection
 
 ## Introduction  
 This repository contains my solutions to the problem sets from **Harvard's CS50: Introduction to Computer Science**. CS50 is an intensive introduction to computer science that covers fundamental programming concepts, algorithms, and data structures using languages like **C, Python, SQL, and JavaScript**.  
