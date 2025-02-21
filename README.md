@@ -2,28 +2,29 @@
 #      Programming challenges
 
 ## Introduction  
-This repository contains my take to the challenges from **Harvard's: Introduction to Computer Science**. This is an intensive introduction to computer science that covers fundamental programming concepts, algorithms, and data structures using languages like **C, Python, SQL, and JavaScript**.  
 
-Below, you will find an organized list of all the problem sets, each with its respective exercises that i did between january and march 2025
+This repository showcases my approach to various programming challenges I have tackled, organized into different categories. Each project reflects my problem-solving skills and learning experiences across multiple domains.  
+
+Feel free to check the code and the comments!
 
 ---
 
 ## 01 - Basics of the language C 
 <details>
-<summary>Hello, Hello Name, Mario, Credit</summary>
+<summary></summary>
 
-- **Hello** – Famous Basic C program that prints "hello, world."
+- **Hello World** – Famous Basic C program that prints "hello, world."
 
 ![](Misc/hello_world.png)
 - **Hello Name** – Little twist of the "hello, world" where user need to input a name and prints "hello, name"
 
 ![](Misc/hello_me.png)
 
-- **Mario (More)** – Ask height and prints a pyramid of blocks inspired by Super Mario.
+- **Pyramid Printer** – Ask height and prints a pyramid of blocks inspired by Super Mario.
 
 ![](Misc/mario-more.png)
   
-- **Credit** – A program that verifies credit card numbers using Luhn’s Algorithm and identifies the card network.
+- **Credit Card Checker** – A program that verifies credit card numbers using Luhn’s Algorithm and identifies the card network.
  
 ![](Misc/credit.png)
 
@@ -34,17 +35,17 @@ Below, you will find an organized list of all the problem sets, each with its re
 ## 02 - Arrays  
 
 <details>
-<summary>Scrabble, Readability, Substitution</summary>
+<summary></summary>
 
 - **Scrabble** - Simple scrabble-like program that give points depending on letters for a given word.
 
 ![](Misc/scrabble.png)
 
-- **Readability** – Determines the reading level of a given text using the Coleman-Liau index.
+- **Check Reading Level** – Determines the reading level of a given text using the Coleman-Liau index.
 
 ![](Misc/readability.png)
 
-- **Substitution** – Implements a more flexible substitution cipher.
+- **Cipher a text** – Implements a more flexible substitution cipher.
 
 ![](Misc/substitution.png)
 
@@ -54,14 +55,14 @@ Below, you will find an organized list of all the problem sets, each with its re
 
 ## 03 - Algorithms  
 <details>
-<summary>Plurality, Tideman</summary>
+<summary></summary>
   
-- **Plurality** – Implements a simple plurality voting system.
+- **Plurality Vote** – Implements a simple plurality voting system.
 
 ![](Misc/plurality.png)
 
 
-- **Tideman** – Implements a ranked-choice voting system using graph theory.
+- **Tideman Vote** – Implements a ranked-choice voting system using graph theory.
 
 ![](Misc/tideman.png)
 
@@ -72,9 +73,9 @@ Below, you will find an organized list of all the problem sets, each with its re
 ## 04 - Memory
 
 <details>
-<summary>Volume, Filter-more, Recover</summary>
+<summary></summary>
 
-- **Volume** – Modify an input’s volume by adjusting its memory allocation.
+- **Volume Changer** – Modify an input’s volume by adjusting its memory allocation.
   
   <details>
   
@@ -95,7 +96,7 @@ Below, you will find an organized list of all the problem sets, each with its re
   ---
   </details>
 
-- **Filter-more** – Applies image filters like grayscale, blur, reversed and edge detection using image processing techniques.
+- **Basics filters for images** – Applies image filters like grayscale, blur, reversed and edge detection using image processing techniques.
 
   <details>
   
@@ -119,9 +120,7 @@ Below, you will find an organized list of all the problem sets, each with its re
   ---
   </details>
 
-- **Recover** – Recovers deleted JPEG files from a raw memory file.
-![](Misc/recover.png)
->Recovered images from card.raw
+- **Recovering** – Script that recovers deleted JPEG files from a raw memory file.
 
 </details>
 
@@ -129,14 +128,14 @@ Below, you will find an organized list of all the problem sets, each with its re
 
 ## 05 - Data Structures
 <details>
-<summary>Inheritance, Speller</summary>
+<summary></summary>
 
   
-- **Inheritance** – Simulates blood type inheritance across generations using a recursive tree-like structure.
+- **Blood type simulation** – Simulates blood type inheritance across generations using a recursive tree-like structure.
 
 ![](Misc/inheritance.png)
 
-- **Speller** – Implements a spell checker using a hash table.
+- **Spelling Mistakes** – Implements a spell checker using a hash table.
 
 ![](Misc/speller.png)
 
@@ -146,25 +145,25 @@ Below, you will find an organized list of all the problem sets, each with its re
 
 ## 06 - Python  
 <details>
-<summary>Hello, Mario, credit, readability, dna</summary>
+<summary></summary>
 
-- **Sentimental Hello** – Basic Python program that prints "hello, world."
+- **Hello World #2** – Basic Python program that prints "hello, world."
 
 ![](Misc/s-hello.png)
   
-- **Sentimental Mario** – Re-implementation of the Mario pyramid in Python.
+- **Pyramid printer #2** – Re-implementation of the Mario pyramid in Python.
 
 ![](Misc/s-mario.png)
 
-- **Sentimental Credit** – Credit card validation using Python.
+- **Credit card checker #2** – Credit card validation using Python.
 
 ![](Misc/s-credit.png)
 
-- **Sentimental Readability** – Determines the reading level of a given text using the Coleman-Liau index.
+- **Check Reading Level #2** – Determines the reading level of a given text using the Coleman-Liau index.
 
 ![](Misc/s-readability.png)
 
-- **DNA** - Identifies the owner of a DNA sequence by comparing STR counts with a database of known individuals.
+- **DNA identifier** - Identifies the owner of a DNA sequence by comparing STR counts with a database of known individuals.
 
 ![](Misc/dna.png)
 
@@ -172,33 +171,20 @@ Below, you will find an organized list of all the problem sets, each with its re
 
 ---
 
-## 07 - SQL  
+## 07 - Web Programming 
 
 <details>
-<summary>Songs, Movies, Fiftyville</summary>
-  
-- **Songs** – Queries a database of songs to find specific information.
-- **Movies** – Queries a database of movies to find specific more complexe information. 
-- **Fiftyville** – A log of queries from the database of a town with multiple clues to identify a thief, their destination, and accomplices.
+<summary></summary>
 
-</details>
-
----
-
-## 08 - Web Programming 
-
-<details>
-<summary>Trivia, Homepage, Birthdays, Finance</summary>
-
-- **Trivia** – A simple website using HTML, CSS, and JavaScript in form of a trivia.
+- **Quizz game** – A simple website using HTML, CSS, and JavaScript in form of a quizz.
   
 ![](Misc/trivia.png)
 
-- **Homepage** – A simple personal website using HTML, CSS, and JavaScript, with an interactive gallery.
+- **Personal Site** – A simple personal website using HTML, CSS, and JavaScript, with an interactive gallery.
 
 ![](Misc/homepage_1.png) ![](Misc/homepage_2.png)
 
-- **Birthdays** – Flask web app using SQLite to view and add friends' birthdays.
+- **Friends Birthdays App** – Flask web app using SQLite to view and add friends' birthdays.
 
 ![](Misc/birthdays.png)
 
@@ -207,5 +193,15 @@ Below, you will find an organized list of all the problem sets, each with its re
 https://github.com/user-attachments/assets/87e3298c-1bf4-4b3a-bd0c-514790665e3d
 
 </details>
+
+---
+
+## Disclaimer  
+
+This repository contains projects and code inspired by various programming challenges and coursework I have completed. However, it does **not** contain direct solutions to any coursework or other academic assessments.  
+
+The purpose of this repository is to showcase my programming skills, problem-solving abilities, and learning experiences.
+
+If you are a student, I encourage you to complete assignments independently to ensure academic integrity and adhere to your institution’s honor code.  
 
 ---
